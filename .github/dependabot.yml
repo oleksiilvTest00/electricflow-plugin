@@ -5,5 +5,6 @@ version: 2
 updates:
   - package-ecosystem: "maven"
     directory: "/"
-    update_schedule: "daily"
+    schedule:
+      interval: "daily"
     security-updates-only: true
